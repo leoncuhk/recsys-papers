@@ -30,13 +30,21 @@ surveys on recommendation system and computational advertising system
 | Model       | Conference | Paper                                                        |
 | ----------- | ---------- | ------------------------------------------------------------ |
 | Word2Vec | arxiv'13   | [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf); [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/pdf/1310.4546.pdf) [**Google**] |
-| Item2Vec | arxiv'16   | [Item2Vec: Neural Item Embedding for Collaborative Filtering](https://arxiv.org/ftp/arxiv/papers/1603/1603.04259.pdf)|
-| Node2Vec | KDD'16   | [node2vec: Scalable Feature Learning for Networks](https://cs.stanford.edu/people/jure/pubs/node2vec-kdd16.pdf) |
-| Youtube DNN | RecSys'16| [Deep Neural Networks for YouTube Recommendations](https://ai.google/research/pubs/pub45530) [**Google**]|
+| Item2Vec | arxiv'16   | [Item2Vec: Neural Item Embedding for Collaborative Filtering](https://arxiv.org/ftp/arxiv/papers/1603/1603.04259.pdf) [**Microsoft**] |
+| GraphEmb | KDD'14 | [DeepWalk- Online Learning of Social Representations](http://www.perozzi.net/publications/14_kdd_deepwalk.pdf) |
+| LINE | WWW'15 | [LINE - Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf) [**Microsoft**] |
+| Node2Vec | KDD'16 | [node2vec: Scalable Feature Learning for Networks](https://cs.stanford.edu/people/jure/pubs/node2vec-kdd16.pdf) |
+| Youtube DNN | RecSys'16 | [Deep Neural Networks for YouTube Recommendations](https://ai.google/research/pubs/pub45530) [**Google**]|
 | NCF | WWW'17   | [Neural Collaborative Filtering](https://www.comp.nus.edu.sg/~xiangnan/papers/ncf.pdf) |
 | Listing emb | KDD'18 | [Real-time Personalization using Embeddings for Search Ranking at Airbnb](https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb) [**Airbnb**] |
+|    | KDD'18   | [Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba](https://arxiv.org/pdf/1803.02349.pdf) [**Alibaba**] |
 | Product emb | arxiv'19   | [Large-scale Collaborative Filtering with Product Embeddings](https://arxiv.org/abs/1901.04321) [**Amazon**] |
 | DeepCF | AAAI'19 | [DeepCF: A Unified Framework of Representation Learning and Matching Function Learning in Recommender System](https://arxiv.org/abs/1901.04704) |
+
+word2vec解释
+
+- [Word2vec Explained Negative-Sampling Word-Embedding Method (2014)](https://arxiv.org/pdf/1402.3722.pdf)
+- [Word2vec Parameter Learning Explained (2016)](https://arxiv.org/pdf/1411.2738.pdf)
 
 
 
@@ -91,7 +99,27 @@ various CTR prediction models for recommendation systems
 
 
 
-### DRL based
+### TL related
+
+Transfer Learning related/Multi-Task Learning based Recommendation Systems
+
+* [Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts](https://dl.acm.org/doi/10.1145/3219819.3220007)
+* [An Overview of Multi-Task Learning in Deep Neural Networks](https://arxiv.org/pdf/1706.05098.pdf)
+* [A Survey on Transfer Learning](https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf)
+
+
+
+### FL related
+
+Federated Learning based Recommendation Systems
+
+* [Federated Recommendation Systems](https://ieeexplore.ieee.org/document/9005952)
+
+* [FedFast: Going Beyond Average for Faster Training of Federated Recommender Systems](https://dl.acm.org/doi/abs/10.1145/3394486.3403176)
+
+
+
+### DRL related
 
 * Deep Reinforcement Learning based Recommendation Systems
 
@@ -107,15 +135,6 @@ various CTR prediction models for recommendation systems
 
 
 
-### Evaluations
-
-evaluation methods for RS
-
-* Predicting Online Performance of News Recommender Systems Through Richer Evaluation Metrics
-* RecSys2018 tutorial
-
-
-
 ### XAI
 
 Explainable AI and model interpretation methods for ML models
@@ -126,6 +145,15 @@ Explainable AI and model interpretation methods for ML models
 * LIME
 * RETAIN
 * LRP
+
+
+
+### Evaluations
+
+evaluation methods for RS
+
+* Predicting Online Performance of News Recommender Systems Through Richer Evaluation Metrics
+* RecSys2018 tutorial
 
 
 
