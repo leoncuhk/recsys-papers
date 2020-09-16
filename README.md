@@ -106,9 +106,8 @@ Transfer Learning related/Multi-Task Learning based Recommendation Systems
 * [A Survey on Transfer Learning](https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf)
 
 
-
-| Model     | Conference | Paper                                       |
-| --------- | ---------- | ------------------------------------------- |
+| Model     | Conference | Paper                                                        |
+| --------- | ---------- | ------------------------------------------------------------ |
 | ESMM      | SIGIR’18   | [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/abs/1804.07931) [**Alibaba**] |
 | MMoE      | KDD’18     | [Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts](https://dl.acm.org/doi/10.1145/3219819.3220007) [**Google**] |
 | YouTube-MTL    | RecSys’19    | [Recommending What Video to Watch Next: A Multitask Ranking System](https://daiwk.github.io/assets/youtube-multitask.pdf) [**Google**] |
