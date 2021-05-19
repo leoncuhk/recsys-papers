@@ -1,5 +1,0 @@
-#supply_node     inventory
-0	40
-1	40
-2	40
-3	40
