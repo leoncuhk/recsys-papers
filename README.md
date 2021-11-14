@@ -176,11 +176,45 @@ Recommendation systems references, and hashing function for flow allocations
 
 
 
+
+
+## Applications
+
+### Feeds RecSys
+
+* News
+* Pictures
+* Videos (PGC, UGC)
+* Musics
+* e-commerce
+* financial products
+
+
+
 ### Computational Ad
 
-Computational advertising systems
+* Computational advertising systems
 
-* 
+
+
+### Marketing Growth
+
+* CVR prediction
+* LTV prediction
+
+
+
+
+
+## Conferences
+
+* AAAI
+* KDD
+* ICML
+* WWW
+* RecSys
+
+
 
 
 
