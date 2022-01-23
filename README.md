@@ -115,6 +115,12 @@ Transfer Learning related/Multi-Task Learning based Recommendation Systems
 
 
 
+- Schick, Timo, and Hinrich Schütze. ["It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners."](https://github.com/keyurfaldu/AIgrads/blob/master/summary/PET.md) arXiv preprint [[arXiv:2009.07118](https://arxiv.org/pdf/2009.07118.pdf)] (2020).
+- [Zero-Shot Transfer Learning with Synthesized Data for Multi-Domain Dialogue State Tracking](https://github.com/keyurfaldu/AIgrads/blob/master/summary/cai_synthetic_data.md), Giovanni Campagna Agata Foryciarz Mehrad Moradshahi Monica S. Lam, ACL 2020 [[arXiv](https://www.aclweb.org/anthology/2020.acl-main.12.pdf)]
+- [DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference](https://github.com/keyurfaldu/AIgrads/blob/master/summary/DReCa.md) Shikhar Murty, Tatsunori B. Hashimoto, Christopher D. Manning, 2020 [[arXiv](https://openreview.net/pdf?id=PqsalKqGudW)]
+
+
+
 
 ### FL related
 
@@ -146,12 +152,30 @@ Federated Learning based Recommendation Systems
 
 Explainable AI and model interpretation methods for ML models
 
-* PDP
-* ICE
-* SHAP
-* LIME
+* PDP：[A simple and effective model-based variable importance measure](https://arxiv.org/pdf/1805.04755.pdf). Greenwell, Brandon M., Bradley C. Boehmke, and Andrew J. McCarthy. arXiv preprint arXiv:1805.04755 (2018).
+* ICE：[Peeking inside the black box: Visualizing statistical learning with plots of individual conditional expectation](https://arxiv.org/pdf/1309.6392.pdf). Goldstein, Alex, Adam Kapelner, Justin Bleich, and Emil Pitkin. Journal of Computational and Graphical Statistics 24, no. 1 (2015): 44-65.
+* LIME：[LIME: "Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://github.com/keyurfaldu/AIgrads/blob/master/summary/LIME.md) Ribeiro, Sameer Singh, Guestrin, KDD 2016 [[arXiv](https://arxiv.org/pdf/1602.04938.pdf)]
+* SHAP：[SHAP: A Unified Approach to Interpreting Model Predictions](https://github.com/keyurfaldu/AIgrads/blob/master/summary/shap.md), Lundberg, Lee, NIPS 2017 [[arXiv](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf)]
+* DeepLift：[DeepLift: Learning Important Features Through Propagating Activation Differences](https://github.com/keyurfaldu/AIgrads/blob/master/summary/deeplift.md) Avanti Shrikumar et al, ICML 2019 [[arXiv](https://arxiv.org/pdf/1704.02685.pdf)]
 * RETAIN
 * LRP
+
+Methods
+
+* https://christophm.github.io/interpretable-ml-book/
+* [Principles and Practice of Explainable Machine Learning](https://github.com/keyurfaldu/AIgrads/blob/master/summary/explainable_ml.md) Vaishak Belle, Ioannis Papantonis [[arXiv](https://arxiv.org/pdf/2009.11698.pdf)]
+* [Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](https://github.com/keyurfaldu/AIgrads/blob/master/summary/xai_concepts.md), Arrieta et al., 2019 [[arXiv](https://arxiv.org/abs/1910.10045)]
+* [Definitions, methods, and applications in interpretable machine learning](https://github.com/keyurfaldu/AIgrads/blob/master/summary/interpretable_ml.md) W. James Murdocha, Chandan Singhb, Karl Kumbiera, Reza Abbasi-Asl, and Bin Yua, PNAS 2019 [[PNAS](https://www.pnas.org/content/pnas/116/44/22071.full.pdf)]
+* [How Can I Explain This to You? An Empirical Study of Deep Neural Network Explanation Methods](https://github.com/keyurfaldu/AIgrads/blob/master/summary/explainabilty_emperical_study.md) Jeya Vikranth Jeyakumar, Joseph Noor, Yu-Hsi Cheng, Luis Garcia, Mani Srivastava, NIPS 2020 [[arXiv](https://proceedings.neurips.cc//paper/2020/file/2c29d89cc56cdb191c60db2f0bae796b-Paper.pdf)]
+* [Towards Transparent and Explainable Attention Models](https://github.com/keyurfaldu/AIgrads/blob/master/summary/diversity_attention.md) Mohankumar, Mitesh Khapra et al. ACL 2020 [[arXiv](https://arxiv.org/abs/2004.14243)]
+* [A Framework for Understanding Unintended Consequences of Machine Learning](https://github.com/keyurfaldu/AIgrads/blob/master/summary/formalising_bias.md) Harini Suresh, John V. Guttag, 2020 [[arXiv](https://arxiv.org/pdf/1901.10002.pdf)]
+
+- [Explaining Explanations: Axiomatic Feature Interactions for Deep Networks](https://github.com/keyurfaldu/AIgrads/blob/master/summary/integrated_hessians.md) Janizek, Sturmfels, Lee, 2020 [[arXiv](https://arxiv.org/pdf/2002.04138.pdf)]
+- [Explainable AI: A Review of Machine Learning Interpretability Methods](https://www.mdpi.com/1099-4300/23/1/18/pdf)
+- [Explaining Explanations: An Overview of Interpretability of Machine Learning](https://arxiv.org/pdf/1806.00069.pdf)
+- [How Important Is a Neuron?](https://github.com/keyurfaldu/AIgrads/blob/master/summary/conductance.md), Kedar Dhamdhere, Mukund Sundararajan, Qiqi Yan, Google Research [[arXiv](https://arxiv.org/pdf/1805.12233.pdf)]
+- https://cloud.google.com/explainable-ai
+- https://github.com/keyurfaldu/AIgrads
 
 
 
@@ -191,9 +215,13 @@ Recommendation systems references, and hashing function for flow allocations
 
 
 
+
+
 ### Computational Ad
 
 * Computational advertising systems
+
+
 
 
 
@@ -206,18 +234,6 @@ Recommendation systems references, and hashing function for flow allocations
 
 
 
-## Conferences
-
-* AAAI
-* KDD
-* ICML
-* WWW
-* RecSys
-
-
-
-
-
 ## Reference
 
 * 《计算广告论文、学习资料、业界分享》https://github.com/wzhe06/Ad-papers
@@ -225,3 +241,5 @@ Recommendation systems references, and hashing function for flow allocations
 * 《A review and evaluation of CTR prediction models》https://github.com/anyai/OpenCTR 
 * 《Easy-to-use,Modular and Extendible package of deep-learning based CTR models》https://github.com/shenweichen/DeepCTR 
 * 《CTR预估深度模型演化之路》https://mp.weixin.qq.com/s/jpWS9ec0MCO4ncSZx38r3w
+
+* Conferences: AAAI、KDD、ICML、WWW、RecSys
